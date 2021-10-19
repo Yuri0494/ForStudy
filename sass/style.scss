@@ -1,3 +1,14 @@
+@import "../node_modules/normalize.scss/normalize.scss";
+@import "abstracts/mixines";
+@import "abstracts/placeholders";
 @import "base/base";
 @import "abstracts/constants";
 @import "layouts/wrapper";
+@import "component/contact-us";
+@import "component/icons";
+@import "component/logo";
+
+@import "layouts/header";
+@import "component/navigation";
+@import "base/buttons";
+@import "component/promo";

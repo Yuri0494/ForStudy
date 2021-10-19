@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sass/style.css"> 
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <title>Frifay live coding</title>
 </head>
 <body>
     <header class="header">
-        <div class="wrapper">
-            <a href="#" class="logo">Logo</a>
+        <div class="wrapper header__wrapper">
+            <a href="#" class="logo">
+                <object type="image/svg+xml" data="./assets/img/Logo.svg" class="logo-object"></object>
+            </a>
             <nav class="header__navigation"> 
                 <ul class="navigation">
-                    <li>Home</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li class="navigation__link">Home</li>
+                    <li class="navigation__link">Service</li>
+                    <li class="navigation__link">About</li>
+                    <li class="navigation__link">Product</li>
                 </ul>
             </nav>
             <div class="header__buttons">
@@ -26,10 +33,10 @@
         </div>
     </header>
         <section class="promo">
-            <div class="wrapper">
+            <div class="wrapper promo__wrapper">
                 <div class="promo__content">
-                    <h1> The disign Thinking superpowers</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et consequatur, in reprehenderit ea quos possimus, voluptate, quis quisquam amet repellendus facilis ipsam assumenda debitis saepe impedit at optio repellat. Sapiente?</p>
+                    <h1 class="promo__title"> The disign Thinking superpowers</h1>
+                    <p class="promo__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
                     <div class="promo__buttons">
                         <buttons class="button button_colored">Get started</buttons>
                         <a href="#" class="link-button">
@@ -37,6 +44,7 @@
                         </a>
                     </div>
                 </div>
+                <img class="promo__picture" src="./assets/img/Image.png">
             </div>
         </section>
         <section class="tools">
@@ -92,7 +100,7 @@
                 </div>
             </div>
         </section>
-        <section class="Contact-us">
+        <section class="contact-us">
             <div class="wrapper">
                 <div class="layout-2-column">
                     <div class="contact-us__content">
