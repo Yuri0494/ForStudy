@@ -1,0 +1,34 @@
+.strategies__tags {
+    display: flex;
+    margin-bottom: 31px;
+    >* {
+        margin-right: 7px;
+    }
+}
+
+.tag {
+    text-align: center;
+    padding: 0 14px;
+    border-radius: 90px;
+    @include font($size:1.3rem, $height: 2.8rem, $style:normal, $weight:normal);
+
+    &_bordered {
+        border: 1px solid $color-border;
+    }
+
+    &_selected {
+        background-color: $color-primary;
+        color: $color-light;
+    }
+
+    &_colored {
+        background-color: $color-tag;
+    }
+}
+
+.strategy__tags {
+    display: flex;
+    >* {
+        margin-right: 7px;
+    }
+}

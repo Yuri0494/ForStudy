@@ -7,12 +7,12 @@ html {
 body {
     font-size: 1.6rem;
     @extend %font-add;
-    @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
+    @include font($size: 1.6rem, $height: 2.8rem, $weight: normal);
 }
 
 h1 {
     @extend %font-add;
-    @include font(5.4rem, 4.4rem, $weight:700)
+    @include font(4.4rem, 4.4rem, $weight:700)
 }
 
 h2 {

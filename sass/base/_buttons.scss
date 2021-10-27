@@ -34,5 +34,6 @@
 
 .link-button {
     color: $color-primary;
-    @extend %font-add;
+    display: inline-flex;
+    align-items: center;
 }

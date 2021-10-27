@@ -2,6 +2,6 @@
     @extend %transition;
     &:hover {
         cursor: pointer;
-        color:$color-primary;
+        fill: $color-primary;
     }
 }

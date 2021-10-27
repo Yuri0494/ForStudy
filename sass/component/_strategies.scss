@@ -1,0 +1,33 @@
+.stratagy__image {
+
+}
+
+
+.strategies__title {
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+
+.strategies__description {
+    margin-bottom: 24px;
+}
+
+.block-shadowed {
+    box-shadow: (0px 4px 20px rgba(0, 0, 0, 0.05));
+    border-radius: 10px;
+}
+
+.strategy__content {
+    padding: 24px 34px 26px 33px;
+}
+
+.strategy__name {
+    margin: 0 0 29px;
+}
+
+.strategies-wrapper {
+
+    >* {
+        margin-bottom: 30px;
+    }
+}

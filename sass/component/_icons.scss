@@ -4,7 +4,53 @@
 }
 
 .ico_play {
-    background-image: url("../../assets/img/1486348532-music-play-pause-control-go-arrow_80458.svg");
+    background-image: url("../assets/img/Play.svg");
+    margin-right:.9rem;
     width: 18px;
     height: 19px;
+}
+
+.icon-square {
+    width:50px;
+    height: 50px;
+    border-radius: 19px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    &_lilium {
+        background-color: $color-violet;
+    }
+    &_yellow {
+        background-color: $color-yellow;
+    }
+    &_red{
+        background-color: $color-red;
+    }
+    &_blue {
+        background-color: $color-blue;
+    }
+}
+
+.ico_arrow {
+    width: 12px;
+    height: 17px;
+    background-image: url("../assets/img/arrow.svg");
+}
+
+.ico_wave {
+    width: 12px;
+    height: 17px;
+    background-image: url("../assets/img/wave.svg");
+}
+
+.ico_sandclock {
+    width: 12px;
+    height: 17px;
+    background-image: url("../assets/img/sandclock.svg");
+}
+
+.ico_heart {
+    width: 12px;
+    height: 17px;
+    background-image: url("../assets/img/heart.svg");
 }
